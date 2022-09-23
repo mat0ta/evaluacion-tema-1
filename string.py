@@ -12,4 +12,4 @@ class String():
             if self.counter >= 3 and self.counter < 10:
                 print(True)
             else:
-                print(False)
+                print(False) 
