@@ -24,12 +24,13 @@ class Tabla():
             self.created = True
             if self.count == 0:
                 self.arg_1 = self.arg_1_fix
-            if self.count < self.arg_2 and self.arg_1 > 0:
-                self.matrix[self.arg_1_fix - self.arg_1].append(' * ')
+            if self.count < self.arg_2 + self.count:
+                self.matrix[self.count].append(' * ')
+                self.arg_2 -= 1
+                self.tabla()
+            elif self.arg_1 > 1:
                 self.count += 1
-                self.tabla()
-            else:
-                self.count = 0
                 self.arg_1 -= 1
+                self.arg_2 = self.arg_2_fix
                 self.tabla()
-        print(self.matrix)
+        return(self.matrix)

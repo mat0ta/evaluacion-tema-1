@@ -16,4 +16,4 @@ if __name__ == "__main__":
     # range3 = range.Range(0, 10)
     # range3.generate()
 
-    tabla.Tabla().tabla()
+    print(tabla.Tabla().tabla())
