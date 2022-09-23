@@ -3,6 +3,7 @@ import string
 import range
 import tabla
 from totareadme import readme
+from pprint import pprint
 
 if __name__ == "__main__":
     readme("C:/Users/marti/Documents/GitHub/evaluacion-tema-1")
@@ -19,4 +20,5 @@ if __name__ == "__main__":
     range3 = range.Range(0, 10)
     range3.generate()
 
-    print(tabla.Tabla().tabla())
+    for s in tabla.Tabla().tabla():
+        print(*s)
