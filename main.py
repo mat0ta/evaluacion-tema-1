@@ -4,7 +4,7 @@ import range
 import tabla
 
 if __name__ == "__main__":
-    sum.Sum().sum()
+    # sum.Sum().sum()
 
     # string = string.String()
     # string.checkString()
