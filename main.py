@@ -2,8 +2,11 @@ import sum
 import string
 import range
 import tabla
+from totareadme import readme
 
 if __name__ == "__main__":
+    readme("C:/Users/marti/Documents/GitHub/evaluacion-tema-1")
+
     sum.Sum().sum()
 
     string = string.String()
